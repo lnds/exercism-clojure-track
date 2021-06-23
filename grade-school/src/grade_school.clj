@@ -1,7 +1,7 @@
 (ns grade-school)
 
 (defn grade [school grade]  
-    (or (school grade) []))
+    (get school grade []))
 
 (defn add [school name grade] 
     (update-in school [grade] (comp vec conj) name))
