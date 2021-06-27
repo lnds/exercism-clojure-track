@@ -13,4 +13,7 @@
   (scores (first (clojure.string/upper-case letter))))
 
 (defn score-word [word] 
-  (reduce + (map score-letter (clojure.string/split word #""))))
+  (->> word
+    (map score-letter)
+    (reduce +)))
+
