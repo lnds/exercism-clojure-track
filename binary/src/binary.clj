@@ -1,7 +1,5 @@
 (ns binary)
 
 (defn to-decimal [num] 
-  (reduce + 
-    (map-indexed 
-      #(* (bit-shift-left 1 %1) (Character/digit %2 2)) 
-          (reverse (filter #(Character/isDigit %) num)))))
+  (reduce 
+    (fn [acum digit] (+ (* 2 acum) (if (= digit \1) 1 0))) 0 num)) 
