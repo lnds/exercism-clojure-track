@@ -13,4 +13,4 @@
   (->> 
     (for [a (range n) b (range n)] [a b])
     (map #(apply (partial cell n) %))
-    (partition n)))exerism
+    (partition n)))
