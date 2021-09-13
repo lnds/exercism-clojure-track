@@ -12,17 +12,17 @@
   )
 
 (defn annual-yield
-  "TODO: add docstring"
+  "Calculate annual yield based o interest rate"
   [balance]
   (/ (*' balance (interest-rate balance)) 100.0M))
 
 (defn annual-balance-update
-  "TODO: add docstring"
+  "Calculate annual balance based on interest"
   [balance]
   (bigdec (+' balance (annual-yield balance))))
 
 (defn amount-to-donate
-  "TODO: add docstring"
+  "Calculate amount to donate based on tax free percentage allowed by law"
   [balance tax-free-percentage]
   (if (neg? balance)
     0
