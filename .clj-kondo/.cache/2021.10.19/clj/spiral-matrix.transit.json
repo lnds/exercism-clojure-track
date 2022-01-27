@@ -1,0 +1,1 @@
+["^ ","~$cell",["^ ","~:row",3,"~:col",1,"~:private",true,"~:fixed-arities",["~#set",[3]],"~:name","^0","~:ns","~$spiral-matrix","~:top-ns","^8","~:arities",["^ ","~i3",["^ ","~:ret",["^5",["~:number"]]]]],"~$spiral",["^ ","^1",12,"^2",1,"^4",["^5",[1]],"^6","^=","^7","^8","^9","^8"],"~:filename","/Users/ediaz/Exercism/clojure/spiral-matrix/src/spiral_matrix.clj"]

@@ -1,0 +1,1 @@
+["^ ","~$valid?",["^ ","~:row",3,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$luhn","~:top-ns","^7"],"~:filename","/Users/ediaz/Exercism/clojure/luhn/src/luhn.clj"]
